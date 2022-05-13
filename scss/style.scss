@@ -745,8 +745,13 @@ $mainLightSilverColor: #ABABAB;
       text-align: center;
     }
     @media (max-width: 475px) {
-      font-size: 40px;
+      font-size: 28px;
       margin-bottom: 20px;
+      & span {
+        padding-left: 0px;
+        color: #FFC226;
+        font-size: 30px;
+      }
     }
   }
 
@@ -794,9 +799,10 @@ $mainLightSilverColor: #ABABAB;
       }
     }
     @media (max-width: 425px) {
-      font-size: 25px;
+      padding-top: 10px;
+      font-size: 20px;
       &:not(:last-child) {
-        margin-bottom: 20px;
+        margin-bottom: 15px;
       }
     }
   }
@@ -806,7 +812,12 @@ $mainLightSilverColor: #ABABAB;
       margin-bottom: 10px;
     }
     @media (max-width: 1099px) {
-      padding-bottom: 50px;
+      padding-bottom: 40px;
+    }
+    @media (max-width: 425px) {
+      & > *:not(:last-child) {
+        margin-bottom: 5px;
+      }
     }
   }
 
@@ -824,8 +835,8 @@ $mainLightSilverColor: #ABABAB;
 .swiper-slide {
 }
 .swiper-pagination-bullet {
-width: 20px;
-height: 20px;
+width: 15px;
+height: 15px;
 background-color: #0082F3;
 }
 .rating {
@@ -838,7 +849,7 @@ background-color: #0082F3;
       font-size: 28px;
     }
     @media (max-width: 425px) {
-      font-size: 25px;
+      font-size: 20px;
     }
 
   }
@@ -867,6 +878,12 @@ background-color: #0082F3;
     }
     & span {
       color: #ABABAB;
+    }
+    @media (max-width: 425px) {
+      font-size: 30px;
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
     }
   }
 }
