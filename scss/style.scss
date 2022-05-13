@@ -794,6 +794,7 @@ $mainLightSilverColor: #ABABAB;
       }
     }
     @media (max-width: 425px) {
+      font-size: 25px;
       &:not(:last-child) {
         margin-bottom: 20px;
       }
@@ -836,6 +837,9 @@ background-color: #0082F3;
     @media (max-width: 768px) {
       font-size: 28px;
     }
+    @media (max-width: 425px) {
+      font-size: 25px;
+    }
 
   }
 
@@ -843,6 +847,9 @@ background-color: #0082F3;
     color: #ABABAB;
     font-size: 18px;
     line-height: 155%;
+    @media (max-width: 425px) {
+      font-size: 16px;
+    }
   }
 
   &__item {
@@ -957,7 +964,7 @@ padding-bottom: 80px;
 @media (max-width: 425px) {
   padding-bottom: 40px;
 }
-  &_data {
+  &__data {
     font-size: 18px;
     line-height: 160%;
     display: flex; 
@@ -1256,6 +1263,9 @@ padding-bottom: 80px;
     @media (max-width: 1024px) {
       flex: 0 0 100%;
       padding: 0px 0px 50% 0px;
+    }
+    @media (max-width: 425px) {
+      padding: 0px 0px 75% 0px;
     }
   }
 }
